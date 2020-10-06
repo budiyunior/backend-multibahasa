@@ -50,7 +50,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                        <a href="index.html"><i class="fa fa-dashboard "></i>Add Menu</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bars "></i>Menu <span class="fa arrow"></span></a>
@@ -120,58 +120,62 @@
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-head-line">DASHBOARD</h1>
-                        <h1 class="page-subhead-line">Welcome in Beranda Website Valorant Company </h1>
+                        <h1 class="page-head-line">Views Menu</h1>
+                        <h1 class="page-subhead-line">Welcome in Views Data Menu Website Valorant Company </h1>
 
                     </div>
                 </div>
-                <!-- /. ROW  -->
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="main-box mb-red">
-                            <a href="#">
-                                <i class="fa fa-bolt fa-5x"></i>
-                                <h5>Zero Issues</h5>
-                            </a>
+                    <div class="col-md-12">
+                        <!--   Kitchen Sink -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Kitchen Sink
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
+                        <!-- End  Kitchen Sink -->
                     </div>
-                    <div class="col-md-4">
-                        <div class="main-box mb-dull">
-                            <a href="#">
-                                <i class="fa fa-plug fa-5x"></i>
-                                <h5>40 Task In Check</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="main-box mb-pink">
-                            <a href="#">
-                                <i class="fa fa-dollar fa-5x"></i>
-                                <h5>200K Pending</h5>
-                            </a>
-                        </div>
-                    </div>
+                    <!-- /. PAGE INNER  -->
                 </div>
+                <!-- /. PAGE WRAPPER  -->
             </div>
-            <!-- /. PAGE INNER  -->
-        </div>
-        <!-- /. PAGE WRAPPER  -->
-    </div>
-    <!-- /. WRAPPER  -->
+            <!-- /. WRAPPER  -->
 
-    <div id="footer-sec">
-        &copy; 2014 Valorant Company | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
-    </div>
-    <!-- /. FOOTER  -->
-    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-    <!-- JQUERY SCRIPTS -->
-    <script src="<?= base_url() ?>assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS -->
-    <script src="<?= base_url() ?>assets/js/bootstrap.js"></script>
-    <!-- METISMENU SCRIPTS -->
-    <script src="<?= base_url() ?>assets/js/jquery.metisMenu.js"></script>
-    <!-- CUSTOM SCRIPTS -->
-    <script src="<?= base_url() ?>assets/js/custom.js"></script>
+            <div id="footer-sec">
+                &copy; 2014 Valorant Company | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
+            </div>
+            <!-- /. FOOTER  -->
+            <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+            <!-- JQUERY SCRIPTS -->
+            <script src="<?= base_url() ?>assets/js/jquery-1.10.2.js"></script>
+            <!-- BOOTSTRAP SCRIPTS -->
+            <script src="<?= base_url() ?>assets/js/bootstrap.js"></script>
+            <!-- METISMENU SCRIPTS -->
+            <script src="<?= base_url() ?>assets/js/jquery.metisMenu.js"></script>
+            <!-- CUSTOM SCRIPTS -->
+            <script src="<?= base_url() ?>assets/js/custom.js"></script>
 
 
 

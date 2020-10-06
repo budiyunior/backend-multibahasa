@@ -50,7 +50,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                        <a href="index.html"><i class="fa fa-dashboard "></i>Add Menu</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bars "></i>Menu <span class="fa arrow"></span></a>
@@ -127,28 +127,37 @@
                 </div>
                 <!-- /. ROW  -->
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="main-box mb-red">
-                            <a href="#">
-                                <i class="fa fa-bolt fa-5x"></i>
-                                <h5>Zero Issues</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="main-box mb-dull">
-                            <a href="#">
-                                <i class="fa fa-plug fa-5x"></i>
-                                <h5>40 Task In Check</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="main-box mb-pink">
-                            <a href="#">
-                                <i class="fa fa-dollar fa-5x"></i>
-                                <h5>200K Pending</h5>
-                            </a>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <a href="" class="btn btn-success">Views</a>
+                            </div>
+                            <div class="panel-body">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>Fc Param/Menu</label>
+                                        <input class="form-control" name="fc_param" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Fc Kode</label>
+                                        <input class="form-control" name="fc_kode" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Menu Indonesian</label>
+                                        <input class="form-control" name="fc_isi_id" type="text"></input>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Menu English</label>
+                                        <input class="form-control" name="fc_isi_en" type="text"></input>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Menu Japanese</label>
+                                        <input class="form-control" name="fc_isi_jp" type="text"></input>
+                                    </div>
+                                    <button type="submit" class="btn btn-info">Send Message </button>
+
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
