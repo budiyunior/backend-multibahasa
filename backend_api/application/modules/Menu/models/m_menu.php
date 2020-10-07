@@ -41,8 +41,8 @@ class m_menu extends CI_Model{
         $this->db->update($this->tables, $this, array("ID" => $add['ID']));
     }
 
-    public function delete()
+    public function delete($ID)
     {
-
+        return $this->db->delete($this->tables, array("ID" => $ID));
     }
 }

@@ -50,4 +50,11 @@ class Menu extends MX_Controller
         $this->session->set_flashdata('success', '<div class="alert alert-success" role="alert">Data Menu Berhasil Diubah :)</div>');
         redirect('Menu');
     }
+
+    public function delete($ID)
+    {
+        if ($this->m_menu->delete($ID)) {
+            redirect(site_url('Menu'));
+        }
+    }
 }
