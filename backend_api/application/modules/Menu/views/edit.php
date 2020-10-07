@@ -136,7 +136,7 @@
                                 <form role="form" enctype="multipart/form-data" method="post" action="<?= base_url('Menu/save') ?>">
                                     <div class="form-group">
                                         <label>Fc Param/Menu</label>
-                                        <input class="hidden" name="ID" type="text">
+                                        <input class="hidden" name="ID" value="<?= $get->ID ?>" type="text">
                                         <input class="form-control" name="fc_param" value="<?= $get->fc_param ?>" type="text">
                                     </div>
                                     <div class="form-group">
