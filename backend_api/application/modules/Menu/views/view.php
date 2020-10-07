@@ -153,7 +153,7 @@
                                                     <td><?= $v->fc_isi_jp ?></td>
                                                     <td>
                                                         <a href="<?php echo site_url('Menu/edit/' . $v->ID) ?>" class="btn btn-small"><i class="fa fa-edit"></i> Edit</a> |
-                                                        <a onclick="deleteConfirm" href="<?php echo site_url('Menu/delete' . $v->ID) ?>" class="btn btn-small text-danger"><i class="fa fa-trash"></i> Hapus</a>
+                                                        <a onclick="deleteConfirm" href="<?php echo site_url('Menu/delete/' . $v->ID) ?>" class="btn btn-small text-danger"><i class="fa fa-trash"></i> Hapus</a>
                                                     </td>
                                                 </tr>
                                             <?php endforeach; ?>
