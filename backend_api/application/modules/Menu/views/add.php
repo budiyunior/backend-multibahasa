@@ -133,7 +133,7 @@
                                 <a href="<?= base_url('Menu') ?>" class="btn btn-success">Views</a>
                             </div>
                             <div class="panel-body">
-                                <form role="form" enctype="multipart/form-data" method="post" action="<?= base_url('Menu/save') ?>"
+                                <form role="form" enctype="multipart/form-data" method="post" action="<?= base_url('Menu/save') ?>">
                                     <div class="form-group">
                                         <label>Fc Param/Menu</label>
                                         <input class="form-control" name="fc_param" type="text">
