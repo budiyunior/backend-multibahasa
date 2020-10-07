@@ -35,4 +35,19 @@ class Menu extends MX_Controller
         $this->session->set_flashdata('success', '<div class="alert alert-success" role="alert">Data Menu Berhasil Disimpan :)</div>');
         redirect('Menu');
     }
+
+    public function edit($ID)
+    {
+        $data['title'] = 'Edit Menu';
+        $data['get'] = $this->m_menu->get_by_id($ID);
+        $this->load->view('edit', $data);
+    }
+
+    public function update()
+    {
+        $menu = $this->m_menu;
+        $menu->update();
+        $this->session->set_flashdata('success', '<div class="alert alert-success" role="alert">Data Menu Berhasil Diubah :)</div>');
+        redirect('Menu');
+    }
 }
