@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class m_menu extends CI_Model{
         
 
-    public $tables = 't_setup';
+    public $tables = "t_setup";
 
     public function get_menu()
     {
