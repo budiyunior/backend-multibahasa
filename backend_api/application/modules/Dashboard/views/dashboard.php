@@ -56,10 +56,10 @@
                         <a href="#"><i class="fa fa-bars "></i>Menu <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="invoice.html"><i class="fa fa-plus"></i>Add</a>
+                                <a href="<?= base_url('Menu/add') ?>"><i class="fa fa-plus"></i>Add</a>
                             </li>
                             <li>
-                                <a href="pricing.html"><i class="fa fa-list "></i>View</a>
+                                <a href="<?= base_url('Menu') ?>"><i class="fa fa-list "></i>View</a>
                             </li>
                         </ul>
                     </li>
