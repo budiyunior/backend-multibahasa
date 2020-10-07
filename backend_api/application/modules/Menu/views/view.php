@@ -120,9 +120,9 @@
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-head-line">Views Menu</h1>
+                        <h1 class="page-head-line">Table Menu</h1>
                         <h1 class="page-subhead-line">Welcome in Views Data Menu Website Valorant Company </h1>
-
+                        <h1 class="page-subhead-line"><?= $this->session->flashdata('success') ?></h1>
                     </div>
                 </div>
                 <div class="row">
@@ -130,26 +130,33 @@
                         <!--   Kitchen Sink -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Kitchen Sink
+                                <a href="<?= base_url('Menu/add') ?>" class="btn btn-success">Add Menu</a>
                             </div>
                             <div class="panel-body">
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered table-hover">
                                         <thead>
                                             <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
+                                                <th>Menu</th>
+                                                <th>Indonesian</th>
+                                                <th>English</th>
+                                                <th>Japanese</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
+                                            <?php foreach ($views as $v) : ?>
+                                                <tr>
+                                                    <td><?= $v->fc_param ?></td>
+                                                    <td><?= $v->fc_isi_id ?></td>
+                                                    <td><?= $v->fc_isi_en ?></td>
+                                                    <td><?= $v->fc_isi_jp ?></td>
+                                                    <td>
+                                                        <a href="<?php echo site_url('Menu/edit' . $v->ID) ?>" class="btn btn-small"><i class="fa fa-edit"></i> Edit</a> |
+                                                        <a onclick="deleteConfirm" href="<?php echo site_url('Menu/delete' . $v->ID) ?>" class="btn btn-small text-danger"><i class="fa fa-trash"></i> Hapus</a>
+                                                    </td>
+                                                </tr>
+                                            <?php endforeach; ?>
                                         </tbody>
                                     </table>
                                 </div>

@@ -130,10 +130,10 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="panel panel-info">
                             <div class="panel-heading">
-                                <a href="" class="btn btn-success">Views</a>
+                                <a href="<?= base_url('Menu') ?>" class="btn btn-success">Views</a>
                             </div>
                             <div class="panel-body">
-                                <form role="form">
+                                <form role="form" enctype="multipart/form-data" method="post" action="<?= base_url('Menu/save') ?>"
                                     <div class="form-group">
                                         <label>Fc Param/Menu</label>
                                         <input class="form-control" name="fc_param" type="text">
@@ -154,7 +154,7 @@
                                         <label>Menu Japanese</label>
                                         <input class="form-control" name="fc_isi_jp" type="text"></input>
                                     </div>
-                                    <button type="submit" class="btn btn-info">Send Message </button>
+                                    <button type="submit" class="btn btn-info"><i class="fa fa-save"> Save Data</i></button>
 
                                 </form>
                             </div>
