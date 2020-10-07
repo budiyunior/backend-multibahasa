@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class m_menu extends CI_Model{
         
 
-    public $tables = "t_setup";
+    private $tables = "t_setup";
 
     public function get_menu()
     {
@@ -19,6 +19,7 @@ class m_menu extends CI_Model{
         $this->fc_isi_id = $add['fc_isi_id'];
         $this->fc_isi_en = $add['fc_isi_en'];
         $this->fc_isi_jp = $add['fc_isi_jp'];
+
         $this->db->insert($this->tables, $this);
     }
 
