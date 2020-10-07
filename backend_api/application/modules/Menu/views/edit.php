@@ -130,10 +130,10 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="panel panel-info">
                             <div class="panel-heading">
-                                <a href="<?= base_url('Menu/update') ?>" class="btn btn-success">Views</a>
+                                <a href="<?= base_url('Menu') ?>" class="btn btn-success">Views</a>
                             </div>
                             <div class="panel-body">
-                                <form role="form" enctype="multipart/form-data" method="post" action="<?= base_url('Menu/save') ?>">
+                                <form role="form" enctype="multipart/form-data" method="post" action="<?= base_url('Menu/update') ?>">
                                     <div class="form-group">
                                         <label>Fc Param/Menu</label>
                                         <input class="hidden" name="ID" value="<?= $get->ID ?>" type="text">
