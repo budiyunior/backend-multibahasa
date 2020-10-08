@@ -50,7 +50,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard "></i>Add Menu</a>
+                        <a href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bars "></i>Menu <span class="fa arrow"></span></a>

@@ -41,7 +41,7 @@
                 <ul class="nav" id="main-menu">
                     <li>
                         <div class="user-img-div">
-                            <img src="assets/img/user.png" class="img-thumbnail" />
+                            <img src="<?= base_url() ?>assets/img/user.png" class="img-thumbnail" />
                             <div class="inner-text">
                                 Budi Gaming
                                 <br />
@@ -50,7 +50,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard "></i>Add Menu</a>
+                        <a href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bars "></i>Menu <span class="fa arrow"></span></a>
@@ -120,8 +120,8 @@
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-head-line">DASHBOARD</h1>
-                        <h1 class="page-subhead-line">Welcome in Beranda Website Valorant Company </h1>
+                        <h1 class="page-head-line">ADD Menu</h1>
+                        <h1 class="page-subhead-line">Welcome Add Menu in Website Valorant Company </h1>
 
                     </div>
                 </div>

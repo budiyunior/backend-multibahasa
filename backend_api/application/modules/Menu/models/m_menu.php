@@ -1,8 +1,9 @@
-<?php 
-defined('BASEPATH') OR exit('No direct script access allowed');
- 
-class m_menu extends CI_Model{
-        
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class m_menu extends CI_Model
+{
+
 
     private $tables = "t_setup";
 
