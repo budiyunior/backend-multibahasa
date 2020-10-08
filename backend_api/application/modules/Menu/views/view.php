@@ -50,16 +50,16 @@
                         </div>
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard "></i>Add Menu</a>
+                        <a href="<?= base_url('Dashboard') ?>"><i class="fa fa-dashboard "></i>Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bars "></i>Menu <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="invoice.html"><i class="fa fa-plus"></i>Add</a>
+                                <a href="<?= base_url('Menu/add') ?>"><i class="fa fa-plus"></i>Add</a>
                             </li>
                             <li>
-                                <a href="pricing.html"><i class="fa fa-list "></i>View</a>
+                                <a href="<?= base_url('Menu') ?>"><i class="fa fa-list "></i>View</a>
                             </li>
                         </ul>
                     </li>
@@ -153,7 +153,7 @@
                                                     <td><?= $v->fc_isi_jp ?></td>
                                                     <td>
                                                         <a href="<?php echo site_url('Menu/edit/' . $v->ID) ?>" class="btn btn-small"><i class="fa fa-edit"></i> Edit</a> |
-                                                        <a type="button" href="<?= base_url('Menu/delete/' . $v->ID);   ?>" onclick="return confirm('Apakah Anda Ingin Mengembalikan Data  ?');" data-toggle="tooltip" data-placement="top" title="" data-original-title="Hapus" class="btn btn-small text-danger"><i class="fa fa-trash"></i> Hapus</a> |
+                                                        <a type="button" href="<?= base_url('Menu/delete/' . $v->ID);   ?>" onclick="return confirm('Apakah Anda Ingin Menghapus Data ini  ?');" data-toggle="tooltip" data-placement="top" title="" data-original-title="Hapus" class="btn btn-small text-danger"><i class="fa fa-trash"></i> Hapus</a> |
                                                     </td>
                                                 </tr>
                                             <?php endforeach; ?>
